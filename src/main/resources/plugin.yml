@@ -1,0 +1,10 @@
+name: MinecraftDiscord
+main: org.nologic.oisin.minecraftdiscord.MinecraftDiscord
+version: 0.0.1
+author: Oisin
+commands:
+  discord:
+    description: Chat on discord
+    usage: /<command> [player]
+    permission: MinecraftDiscord.discord
+    permission-message: You don't have <permission>
